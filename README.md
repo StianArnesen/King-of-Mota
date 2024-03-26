@@ -5,7 +5,7 @@ A web-based game inspired by the tv-shows: Breaking Bad and Weeds.
 Created by Stian Arnesen | 2015 - 2017
 
 
-##My first website
+## My first website
 
 I started making this game almost 10 years ago back in 2015 when i was 18 years old. It originally started as a way for me to learn PHP, Javascript, CSS and MySQL. 
 The code is really messy and can be hard to follow. 
@@ -14,7 +14,7 @@ The game was never finished, and i had a lot more planned for this game.
 I stopped working on the game in late 2017 after people got bored and it was harder and harder to maintain and add new features. 
 I wish i was using Github a long time ago. It would be amazing to look back on the first versions and see the progress i had made over the years.
 
-#What is King of Mota?
+# What is King of Mota?
 
 Mota is a spanish slang for weed that i heard on the tv-show Weeds.
 In this game you play as a drug manufacurer growing weed, mushrooms and other scary drugs that disrupts society. 
@@ -26,7 +26,7 @@ There is a custom admin panel to add new items, change specs and also to look at
 So basically this is a more complicated version of cookie-clicker.
 
 
-#Game features
+# Game features
 
 * Inventory: You start with 3 spaces in your inventory and can upgrade it as you need. (As long as you can afford the upgrade)
 * Shop: In the shop you are able to buy seeds for weed and mushrooms and some special plants that are only needed when you unlock the Lab. Each item has its own minimum required level. Each product has its own product-page where you can read more about the item and see how much profit you will gain (Money and EXP) and how long it takes to grow.
@@ -56,7 +56,7 @@ So basically this is a more complicated version of cookie-clicker.
 * PVP (NOT COMPLETE): In the PVP arena you could attack your rivals and potentially steal some of their money if you had the better upgrades and some luck to overcome the RNG. This was never fully implemented since there was a lot more that had to be done for this to be a part of the game.
 * Crew: Join a crew or create your own one. This had no function other than the social aspect it created. (crew image and name was Customizable)
 
-#Good to know: 
+# Good to know: 
 The code for this project is messy and very inconsitent various places like naming: Variables, functions, filenames and folders follow no predictable pattern and can be hard to navigate through.
 There are a lot of unececarry assignments to variables that are never used.
 As mentioned this game started as my first website and therefore i knew very little of how code should be written. I also had not planned for anyone else to read my code.
