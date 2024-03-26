@@ -1,0 +1,98 @@
+
+#add_friend_view{
+	color: white;
+
+	background-color: rgba(52, 52, 52, 1);
+
+    margin-left: 15%;
+    margin-right: 15%;
+    padding-bottom: 20px;
+    height: auto;
+    box-shadow: 5px 5px 70px #000000;
+    margin-top: 200px;
+
+    border: 3px groove black;
+
+    z-index: 3;
+}
+
+#search_bar form input{
+    border: 2px solid black;
+    font-family: "exo", sans-serif;
+    font-size: 20px;
+
+    box-shadow: 2px 2px 10px #000000;
+}
+#search_bar form input[type=submit]{
+    
+}
+
+#add_friend_content{
+    margin: 15px;
+}
+
+.search_result_item{
+    background-color: rgb(40, 40, 40);
+    padding-bottom: 5px;
+}
+.search_result_item .user_username span{
+    font-size: 25px;
+    margin: 5px;
+
+    color: white;
+}
+.search_result_item .user_username{
+    background-color: rgb(99, 150, 83);
+    border-bottom: 2px solid black;
+
+    font-size: 20px;
+
+    padding: 5px;
+
+    color: white;
+}
+.search_result_item .user_username a{
+    text-decoration: none;
+     color: white;
+ }
+.search_result_item .user_username a:hover{
+    color: green;
+}
+
+.search_result_item .user_image{
+    margin: 15px;
+    border: 2px solid black;
+    width: 100px;
+    display: inline-block;
+}
+.search_result_item .user_image img{
+    width: 100px;    
+}
+.search_result_item .user_add_friend{
+    width: inherit;
+    height: 20px;
+    
+    display: inline-block;
+}
+.search_result_item .user_add_friend form{
+    
+}
+.search_result_item .user_add_friend form input{
+    font-family: "exo", sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    padding: 5px;
+    color: black;
+    background-color: rgba(255,255,255,1);
+}
+.search_result_item .user_add_friend form input:hover{
+   background-color: rgba(255,255,255,1);
+}
+
+
+.btn-status-active{
+
+    background-color: #519a49 !important;
+    border: 2px solid rgb(28, 56, 15);
+
+}

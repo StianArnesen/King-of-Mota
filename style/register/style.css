@@ -1,0 +1,119 @@
+
+@import url(http://fonts.googleapis.com/css?family=Exo:100,200,400);
+@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:700,400,300);
+
+
+.body{
+    background-color: lightgray;
+}
+body{
+    font-family: "exo", sans-serif;
+    margin: 0px;
+    background-color: lightgray;
+}
+
+#title h1{
+    background-color: black;
+    color: white;
+}
+ #register_view{
+	background-color: rgba(55,55,55,1);
+	
+	border: 4px solid black;
+	
+	margin-top: 100px;
+	margin-left: 20%;
+	margin-right: 20%;
+	height: auto;
+ }
+ 
+ #register_view_title{
+	font-size: 20px;
+	font-weight: 900;
+	width: 50%;
+	margin: auto;
+}
+ #register_view_title h1{
+	font-weight: 600;
+	border-bottom: 4px solid grey ;
+	color: black;
+}
+
+#register_view_title h2{
+	margin-top: -25px;
+}
+
+#register_form_div{
+	font-style: "Exo", sans-serif;
+	font-size: 15px;
+	
+	width: 50%;
+	margin: auto;
+}
+#register_form #pw_strength{
+	font-size: 15px;
+	display: inline;
+}
+#register_form input{
+	margin-top: 5px;
+
+	width: 50%;
+	min-width: 200px;
+	
+	font-family: "exo", sans-serif;
+	font-size: 17px;
+}
+#register_form input[type=submit]{
+	background-color: white;
+	
+	font-family: "exo", sans-serif;
+	font-weight: 600;
+
+	border: 2px solid black;
+
+}
+
+#register_form input[type=submit]:hover{
+	background-color: rgba(100,215,100,0.7);
+}
+#login_btn{
+	
+}
+#success{
+	color: green;
+}
+#reg_info{
+	color: rgba(100,175, 100, 1);
+}
+
+#register_error{
+	color: rgba(255, 20,20, 200);
+	font-weight: 900;
+	font-size: 18px;
+}
+.g-recaptcha{
+	margin-top: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

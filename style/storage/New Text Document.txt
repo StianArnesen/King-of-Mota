@@ -1,0 +1,14 @@
+#storage-view{
+	margin-top: 75px;
+	background-color: rgba(30,30,30,1);
+}
+#storage-title{
+	font-size: 22px;
+	font-weight: 600;
+
+	border-bottom: 3px solid rgba(230,230,230,0.9);
+
+	color: white;
+	
+	padding: 15px;
+}

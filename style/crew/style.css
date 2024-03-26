@@ -1,0 +1,242 @@
+@import url(http://fonts.googleapis.com/css?family=Exo:100,200,400);
+@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:700,400,300);
+
+
+body{
+    font-family: "exo", sans-serif;
+
+    padding: 0px;
+    margin: 0px;
+
+}
+#crew_view{
+    color: white;
+
+    background-color: #292929;
+
+    margin-left: 0;
+    margin-right: 0;
+	margin-top: 75px;
+
+    padding-bottom: 20px;
+
+	min-width: 100%;
+	min-height: 28%;
+	max-height: 255px;
+	height: 255px;
+
+	position: absolute;
+
+	border-top: none;
+
+    z-index: 3;
+}
+#crew_name{
+	font-family: "exo", sans-serif;
+	font-size: 30px;
+	
+	font-weight: 900;
+	background-color: rgb(34, 44, 68);
+	padding: 10px;
+
+	border-bottom: 2px solid black;
+}
+#crew_name .crew_rank{
+	display: inline-block;
+}
+#crew_content{
+	display: inline-block;
+	margin-left: 50px;
+}
+#crew_image{
+	max-width: 188px;
+	max-height: 188px;
+
+	overflow: hidden;
+
+	border: 3px inset black;
+	
+	border-radius: 5px;
+
+	margin-top: 10px;
+	margin-left: 15px;
+
+	float:left;
+}
+#crew_image img{
+	background-color: white;
+
+	display: inline-block;
+
+
+	min-height: 100px;
+
+	max-width: 200px;
+	max-height: 200px;
+}
+#crew_desc{
+	border-bottom: 2px solid black;
+
+	display: inline-block;
+	
+	font-weight: 900;
+	
+	margin-top: 20px;
+	font-size: 25px;
+}
+#crew_desc span{
+	font-weight: 500;
+	
+	display: inline-table;	
+	
+	margin-top: 20px;
+	margin-left: 10px;
+	font-size: 25px;
+}
+
+#crew_score{
+	background-color: rgba(20,20,50,0.3);
+	font-weight: 900;
+	
+	width: 250px;
+	margin-top: 30px;
+
+
+	font-size: 25px;
+}
+
+#crew_money{
+	font-weight: 900;
+	width: 250px;
+
+	background-color: rgba(20,20,50,0.3);
+	margin-top: 10px;
+	
+	margin-bottom: 20px;
+	
+
+	font-size: 25px;
+}
+
+
+
+
+#crew_join_form{
+	margin: 5px;
+	float:right;
+}
+
+#crew_join_form input{
+	font-family: "exo", sans-serif;
+	font-weight: 900;
+	font-size: 20px;
+
+	border: 2px solid black;
+	background-color: white;
+
+	width: 100px;
+	height: 40px;
+}
+#crew_join_form input:hover{
+	background-color: rgba(210,155,150, 1);
+}
+
+
+/*		CREW-MEMBERS-LIST VIEW			*/
+#crew_members_view{
+	color: white;
+	background-color: #292929;
+
+	margin-bottom: 0;
+
+	max-width: 15%;
+	min-width: 15%;
+	height: auto;
+
+	display: block;
+
+	border: 2px groove black;
+	border-top: none;
+
+
+	position: absolute; bottom: 0; left: 0; top: 380px;
+
+	z-index: 3;
+}
+
+#crew_members_list{
+	overflow-y: scroll;
+	height: 90%;
+	background-color: #525252;
+
+	display: block;
+	margin-bottom: 0;
+}
+
+
+#members_title{
+	background-color: #542424;
+
+	padding-bottom: 5px;
+	border-bottom: 4px solid black;
+}
+/*		CREW-MEMBER ITEM			*/
+
+.member_item{
+	height: 70px;
+	
+	font-size: 15px;
+
+	display: block;
+	overflow: hidden;
+
+	background-color: rgb(27, 27, 27);
+
+	color: white;
+
+	border-bottom: 3px solid black;
+}
+
+
+#crew_members_view span{
+    margin: 10px;
+    padding-bottom: 5px;
+}
+.member_username{
+	border-bottom: 2px solid black;
+	background-color: #0c0d0e;
+	padding: 2px;
+}
+.member_username span a{
+	color: white;
+	padding-bottom: 15px;
+	text-decoration: none;
+
+	transition: color 125ms ease;
+}
+.member_username span a:hover{
+	color: rgb(126, 190, 91);
+	padding-bottom: 15px;
+	text-decoration: none;
+}
+.member_username span a:visited{
+
+}
+.member_image{
+	height: auto;
+	display: inline-block;
+	float: left;
+}
+.member_image img{
+	border: 2px solid black;
+	margin: 0;
+	height: 35px;
+	width: auto;
+}
+.member_leader{
+	display: inline-block;
+	width: auto;
+	height: 15px;
+
+	margin: 2px;
+}

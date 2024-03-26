@@ -1,0 +1,117 @@
+@import url(http://fonts.googleapis.com/css?family=Exo:100,200,400);
+@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:700,400,300);
+
+
+
+body{
+    font-family: "exo", sans-serif;
+    background-color: rgba(43,43,43,0.9);
+
+    padding: 0;
+    margin: 0;
+}
+
+
+
+.main-view{
+    width: auto;
+
+    padding-bottom: 55px;
+
+    background-color: #e6e5e5;
+}
+
+
+.main-form{
+
+}
+.form-input{
+    font-family: "exo", sans-serif;
+}
+
+
+/*
+    GLOBAL -> FORM INPUT VIEW
+*/
+
+.form-input-view {
+
+}
+.form-input-view-title{
+    background-color: #3f703d;
+    color: white;
+
+    padding: 5px;
+
+    font-size: 25px;
+}
+.form-input-view-content {
+    padding: 15px;
+}
+
+
+/*
+    FORM VIEW SUB-CONTENT
+
+*/
+
+.form-input-view-sub-content{
+    background-color: white;
+    margin-bottom: 15px;
+
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.29);
+
+    font-size: 18px;
+
+    min-width: 25%;
+
+    padding: 5px;
+}
+
+.form-input-view-sub-title{
+    font-weight: 600;
+    margin-bottom: 15px;
+
+}
+
+
+/*
+    time-input -> HRS, MIN, SEC
+    Small input
+*/
+
+.time-input{
+    width: 50px;
+}
+
+
+/*
+        inline
+    inline items
+*/
+
+
+/*
+    The different form-views
+*/
+
+.item-name-view{
+    margin-bottom: 15px;
+
+}
+.item-name{
+    font-size: 25px;
+    width: 50%;
+}
+.item-desc{
+    width: 600px;
+    height: 200px;
+
+    font-size: 22px;
+}
+
+#item-image-preview{
+    background-color: rgba(255, 255, 255, 0.81);
+    height: 150px;
+    padding: 15px;
+}

@@ -1,0 +1,37 @@
+@import url(http://fonts.googleapis.com/css?family=Exo:100,200,400);
+@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:700,400,300);
+
+
+body{
+    font-family: "exo", sans-serif;
+
+    background-color: lightgray;
+
+    padding: 0px;
+    margin: 0px;
+}
+
+#crew_panel_view{
+    margin-top: 200px;
+    margin-left: 15%;
+    margin-right: 15%;
+
+    background-color: rgba(40,40,40,1);
+
+    border: 4px solid #101010;
+    box-shadow: 10px 10px 50px black;
+
+    width: auto;
+    height: 600px;
+
+}
+#crew_panel_view #panel_title{
+    background-color: rgba(150,150,150,0.7);
+    width: auto;
+}
+#crew_panel_view #panel_title span{
+    display: block;
+    
+    color: black;
+    font-size: 27px;
+}

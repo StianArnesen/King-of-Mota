@@ -1,0 +1,536 @@
+@import url(http://fonts.googleapis.com/css?family=Exo:100,200,400);
+@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:700,400,300);
+
+
+
+body{
+    margin:     0;
+    padding:    0;
+
+    background-color: rgba(105, 106, 137, 1);
+
+    color: #000000;
+    font-family: 'Exo', sans-serif;
+}
+
+/*
+    EXPLORER-VIEW
+*/
+.explorer-view{
+    margin-top: 1px;
+    width: 25%;
+    float: left;
+    display: inline-block;
+}
+.explorer-view-title{
+    background-color: rgb(31, 31, 31);
+    padding-bottom: 15px;
+    position: fixed;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    width: inherit;
+}
+.explorer-view-content{
+    margin-top: 50px;
+    overflow-y: scroll;
+
+    position: fixed;
+
+    width: 25%;
+    height: 90%;
+
+    min-height: 85%;
+    max-height: 90%;
+}
+
+
+.page-view {
+    margin-top: 50px;
+}
+.page-title{
+    color: #ffffff;
+
+    font-weight: 600;
+    font-size: 35px;
+}
+.top-banner{
+
+    color: white;
+    background-color: rgb(31, 31, 31);
+    border-bottom: 2px solid black;
+    margin-left: 0;
+    margin-right: 0;
+    padding: 5px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: block;
+}
+
+/*
+    database item
+*/
+.db-row-item {
+    padding: 5px;
+    border-bottom: 2px solid rgba(96, 92, 92, 0.89);
+    background-color: #2e2e2e;
+    transition: all 155ms ease;
+    color: #ffffff;
+    cursor: auto;
+}
+.db-row-item:hover{
+    cursor: pointer;
+    color: black;
+    box-shadow: inset 0 0 20px rgb(0, 0, 0);
+    background-color: rgb(228, 228, 228);
+}
+.db-row-item:active {
+    background-color: rgba(8, 75, 255, 0.31);
+    transition: none;
+    color: white;
+}
+.db-row-item-title{
+    font-weight: 600;
+}
+.db-row-item-image{
+    height: 50px;
+}
+
+
+.selected {
+    box-shadow: inset 0 0 20px #d2d2ff;
+
+}
+.selected:hover{
+    box-shadow: inset 0 0 25px #a59bff;
+}
+
+
+.green{
+    color: darkgreen;
+    font-weight: 600;
+}
+
+
+
+
+.explorer-view-filters{
+    position: fixed; margin-top: 30px;
+    background-color: black;
+    width: inherit;
+
+    color: white;
+}
+
+
+
+.main-view{
+
+    width: 74.7%;
+    height: 89%;
+    overflow-y: scroll;
+    display: inline-block;
+    float: left;
+
+    position: fixed;margin-left: 0;
+
+    box-shadow: inset 0 1px 25px rgba(0, 0, 0, 0.75);
+
+
+    padding-bottom: 55px;
+
+    background-color: #e6e5e5;
+}
+
+
+.main-form{
+    /*box-shadow: 0 55px 20px rgba(0, 0, 0, 0.75);*/
+
+}
+.form-input{
+    font-family: "exo", sans-serif;
+}
+
+
+/*
+    GLOBAL -> FORM INPUT VIEW
+*/
+
+.form-input-view {
+
+}
+.form-input-view-title{
+    background-color: #6b2e2e;
+    color: white;
+    border: 2px solid black;
+    padding: 5px;
+    font-size: 25px;
+}
+.form-input-view-content {
+    padding: 15px;
+}
+
+
+/*
+    FORM VIEW SUB-CONTENT
+
+*/
+
+.form-input-view-sub-content{
+    background-color: white;
+    margin-bottom: 15px;
+
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.29);
+
+    font-size: 18px;
+
+    min-width: 25%;
+
+    padding: 5px;
+}
+
+.form-input-view-sub-title{
+    font-weight: 600;
+    margin-bottom: 15px;
+
+}
+
+
+/*
+    time-input -> HRS, MIN, SEC
+    Small input
+*/
+
+.time-input{
+    width: 50px;
+}
+
+
+/*
+        inline
+    inline items
+*/
+
+
+/*
+    The different form-views
+*/
+
+.item-name-view{
+    margin-bottom: 15px;
+
+}
+#item-id{
+    float: right;
+    margin-top: 0;
+
+    border: 2px solid rgba(0, 0, 0, 0.35);
+
+    position: relative; top: -55px; right: 25px;
+
+    background-color: black;
+
+    color: white;
+
+    width: 150px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+
+    text-align: center;
+
+    font-weight: 600;
+
+}
+
+.item-name{
+    font-size: 25px;
+    width: 50%;
+
+}
+.item-desc{
+    width: 600px;
+    height: auto;
+
+    font-size: 22px;
+}
+
+#item-image-preview{
+
+    transition: all 155ms ease;
+
+    border: 1px solid rgba(255, 255, 255, 0);
+    height: 150px;
+    padding: 15px;
+}
+#item-image-preview:hover{
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+
+/*
+    Submit button for editor form.
+*/
+
+.form-submit{
+    background-color: white;
+    padding: 7px;
+    border: 2px solid black;
+
+    font-family: "exo", sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+
+    display: inline-block;
+
+    transition: all 155ms ease;
+}
+.form-submit:hover{
+    background-color: rgba(150,196,150, 1);
+    cursor: pointer;
+}
+
+
+
+
+
+
+/*
+       Overlay view
+*/
+
+#overlay-view{
+    width: 100%;
+    height: 100%;
+
+    margin: 0;
+
+    background-color: rgba(0,0,0,0.8);
+
+
+
+    position: fixed; top: 0; left: 0;
+
+    z-index: 245;
+
+    display: none;
+}
+
+#overlay-data{
+    position: fixed; top: 15%; left: 2%; right: 2%;
+
+    width: auto;
+    height: 55%;
+    min-height: 160px;
+
+    z-index: 256;
+
+    background-color: white;
+
+    border: 1px solid rgba(0, 0, 0, 0.95);
+
+
+
+    margin-left: auto;
+    margin-right: auto;
+
+    margin-top: 1%;
+
+    display: none;
+}
+
+
+.overlay-title{
+    display: inline-block;
+    width: 100%;
+    float: left;
+
+    font-size: 20px;
+
+    padding-top: 5px;
+    padding-bottom: 5px;
+
+    text-align: center;
+
+    border-bottom: 2px solid #797979;
+
+    box-shadow: 0 25px 15px rgba(0, 0, 0, 0.31);
+
+    background-color: #292929;
+    color: #e3e3e3;
+}
+
+.overlay-title #rev-item-name{
+    display: inline-block;
+
+    color: #69d751;
+}
+
+
+
+
+/*
+        rev-overlay items
+*/
+
+
+#rev-item-list{
+    overflow-y: scroll;
+    width: 100%;
+    height: 90%;
+
+}
+
+.rev-item{
+    width: 100%;
+
+    border-bottom: 2px solid black;
+
+    background-color: rgb(230, 230, 230);
+}
+
+.rev-item-title{
+
+    font-size: 20px;
+
+    padding-top: 3px;
+    padding-bottom: 3px;
+
+    text-indent: 5px;
+
+    background-color: #252725;
+    color: #69d751;
+}
+
+.rev-item-picture{
+    width: 75px;
+    height: auto;
+}
+
+.rev-item-time{
+    color: white;
+    background-color: #252725;
+
+    padding: 6px;
+
+
+
+    float: right;
+}
+.rev-item-username{
+    color: white;
+    background-color: #252725;
+
+    padding: 6px;
+    -moz-border-radius-bottomleft: 15px;
+    -webkit-border-bottom-left-radius: 15px;
+    display: block;
+
+    float: right;
+}
+
+
+
+
+
+
+
+.rev-item-inline-container{
+    display: inline-block;
+
+    max-width: 20%;
+
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-bottom: 5px;
+
+    border-right: 1px solid rgba(27, 27, 27, 0.22);
+}
+
+.rev-stat{
+    display: block;
+    margin-top: 5px;
+
+    width: 100%;
+
+    border-bottom: 1px solid #484848;
+}
+.rev-stat-var{
+    display: inline-block;
+
+    margin-left: 45px;
+
+    float: right;
+
+    font-weight: 600;
+}
+
+.rev-item-full-width{
+    width: 100%;
+}
+
+
+
+
+
+.ingredients-item{
+    width: 150px;
+    display: inline-block;
+
+    border: 2px solid rgba(0, 0, 0, 0.4);
+
+    background-color: white;
+}
+.ingredients-item-title{
+    font-size: 18px;
+    padding: 5px;
+
+    color: white;
+
+    background-color: rgba(0, 0, 0, 0.85);
+}
+.ingredients-item-content{
+    padding: 5px;
+}
+.ingredients-item-image{
+    display: block;
+    transition: all 155ms ease;
+    -webkit-filter: drop-shadow(1px 1px 0 black) drop-shadow(-1px -1px 0 black);
+    filter: drop-shadow(1px 1px 0 black) drop-shadow(-1px -1px 0 black);
+    max-width: 90%;
+    height: 75px;
+
+    margin: auto;
+
+}
+.ingredients-item-amount{
+    color: red;
+    
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.button-image{
+    width: 60px;
+
+    display: block;
+    position: fixed;
+    bottom: 15px;
+    left: 15px;
+
+    transition: -webkit-filter 115ms ease;
+}
+.button-image:hover{
+    cursor: pointer;
+    -webkit-filter: brightness(1.2);
+}
+.button-image:active{
+    cursor: pointer;
+    -webkit-filter: brightness(1.5);
+}
+
+
+
+
+

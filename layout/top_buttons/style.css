@@ -1,0 +1,219 @@
+.top_banner_menu{
+    z-index: 2;
+
+}
+#top_buttons{
+    background-color: grey;
+
+    font-family: "exo", sans-serif;
+
+    width: 180px;
+
+    position: fixed; top: 20%; left: 10px;
+
+    border: 2px solid transparent;
+
+    border-radius: 10px;
+
+
+}
+.top_banner_menu #btn_home{
+
+    background-color: white;
+    width: 100%;
+    font-family: "exo", sans-serif;
+
+    font-size: 25px;
+    color: black;
+
+    border-radius: 5px;
+ }
+
+.top_banner_menu #btn_home:hover{
+    background-color: lightblue;
+
+    font-family: "exo", sans-serif;
+    color: white;
+    font-size: 25px;
+
+    border-radius: 5px;
+
+
+}
+.top_banner_menu #btn_home:active{
+    background-color: lightblue;
+
+    font-family: "exo", sans-serif;
+
+    font-size: 25px;
+
+    color: white;
+    border-radius: 5px;
+}
+.top_banner_menu #btn_shop{
+
+    width: 100%;
+
+    background-color: white;
+
+    font-family: "exo", sans-serif;
+
+    font-size: 25px;
+
+    color: black;
+    border-radius: 5px;
+}
+
+.top_banner_menu #btn_shop:hover{
+    background-color: lightblue;
+
+    font-family: "exo", sans-serif;
+    color: white;
+    font-size: 25px;
+
+    border-radius: 2px;
+}
+.top_banner_menu #btn_shop:active{
+    background-color: lightblue;
+
+    color: white;
+
+    font-family: "exo", sans-serif;
+
+    font-size: 25px;
+
+    border-radius: 5px;
+}
+
+
+.top_banner_menu #btn_logout{
+
+    background-color: white;
+    width: 100%;
+    font-family: "exo", sans-serif;
+
+    font-size: 25px;
+    color: black;
+
+    border-radius: 5px;
+}
+
+.top_banner_menu #btn_logout:hover{
+    background-color: lightblue;
+
+    font-family: "exo", sans-serif;
+    color: white;
+    font-size: 25px;
+
+    border-radius: 5px;
+
+
+}
+.top_banner_menu #btn_logout:active{
+    background-color: lightblue;
+
+    font-family: "exo", sans-serif;
+
+    font-size: 25px;
+
+    color: white;
+    border-radius: 5px;
+}
+
+
+
+
+#title_location{
+     color: lightgreen;
+}
+.top_banner_menu #btn_crew{
+
+    width: 100%;
+
+    background-color: white;
+
+    font-family: "exo", sans-serif;
+
+    font-size: 25px;
+
+    color: black;
+    border-radius: 5px;
+}
+.top_banner_menu #btn_crew:hover{
+    background-color: lightblue;
+
+    font-family: "exo", sans-serif;
+    color: white;
+    font-size: 25px;
+
+    border-radius: 2px;
+}
+.top_banner_menu #btn_crew:active{
+    background-color: lightblue;
+
+    color: white;
+
+    font-family: "exo", sans-serif;
+
+    font-size: 25px;
+
+    border-radius: 5px;
+}
+.top_banner_menu #btn_inventory{
+    background-color: white;
+    width: 100%;
+    font-family: "exo", sans-serif;
+
+    font-size: 25px;
+    color: black;
+
+    border-radius: 5px;
+}
+.top_banner_menu #btn_inventory:hover{
+    background-color: lightblue;
+
+    font-family: "exo", sans-serif;
+    color: white;
+    font-size: 25px;
+
+    border-radius: 5px;
+
+
+}
+.top_banner_menu #btn_inventory:active{
+    background-color: lightblue;
+
+    font-family: "exo", sans-serif;
+
+    font-size: 25px;
+
+    color: white;
+    border-radius: 5px;
+}
+.top_banner_menu #crew_submenu_buttons{
+	width: 80%;
+	
+	margin: auto;
+	
+	display: none;
+	
+	display: none;
+}
+.top_banner_menu #shop_submenu_buttons{
+	width: 80%;
+	
+	margin: auto;
+	
+	padding-bottom: 10px;
+	
+	display: none;
+}
+.top_banner_menu #home_submenu_buttons{
+	width: 80%;
+	
+	margin: auto;
+	
+	padding-bottom: 10px;
+	
+	display: none;
+}

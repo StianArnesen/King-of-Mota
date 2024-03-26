@@ -1,0 +1,103 @@
+
+#profile_info_div{
+    width: 210px;
+}
+.profile_info_view{
+    float: right;
+    
+    background-color: rgba(15,15,15,0.6);
+    
+    margin-right: 10px;
+    max-width: 210px;
+    min-width: 150px;
+
+    width: 210px;
+    height: 500px;
+    
+    border: 4px solid rgba(20,20,20,0.9);
+    
+    display: block;
+    
+    position: fixed;
+    right: 10px;
+    top: 150px; 
+}
+#profile_info_username{
+    background-color: rgba(10,10,10,0.8);
+    
+    padding-bottom: 15px;
+    
+    font-size: 20px;
+    font-weight: 900;
+    
+    border-bottom: 3px solid black;
+    
+    color: white;
+    z-index: 5;
+}
+#profile_info_picture img{
+    max-width: 100px;
+    max-height: 100px;
+    
+    border: 3px solid black;
+    border-radius: 5px;
+    
+    margin-top: 10px;
+    margin-left: 10px;
+    
+    width: auto;
+    height: auto;
+}
+#profile_info_money{
+    margin-top: 10px;
+    
+    color: rgba(250,250,250,1);
+
+    font-size: 20px;
+    border-bottom: 3px solid black;
+}
+#profile_info_level{
+    margin-top: 15px;
+    color: rgba(250,250,250,1);
+    font-size: 20px;
+    text-align: center;
+    
+}
+#progressbar_level {
+    background-color: rgba(10,10,10,0.7);
+    
+    height: 20px;
+    padding: 3px;
+    margin: 8px;
+}
+#progressbar_level div {
+    font-size: 15px;
+    color: white;
+    background-color: orange;
+    height: 20px;
+}
+#exp_status_text{
+    width: 70%;
+    margin: auto;
+}
+#user_level_bar_progress {
+    color: rgba(220,230,255,1);
+    font-weight: 500;
+}
+
+#exp_span_pre{
+    color: orange;
+}
+#exp_span_after{
+    color: green;
+}
+@media only screen and (max-width: 1499px) {
+    /* For mobile phones: */
+    [class*="profile_info_view"]{
+        display: none;
+        opacity: 0;
+        z-index: -1000;
+        margin: 0;
+        width: 0;
+    }
+}

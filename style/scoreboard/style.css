@@ -1,0 +1,168 @@
+@import url(http://fonts.googleapis.com/css?family=Exo:100,200,400);
+@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:700,400,300);
+
+
+#scoreboard_list_view{
+	color: white;
+
+	/*background-color: rgba(20, 20, 20, 0.7);*/
+	
+	background-color: rgba(20,20,20,0.5);
+
+    margin-left: 15%;
+    margin-right: 15%;
+    min-width: 400px;
+    padding-bottom: 20px;
+
+    height: auto;
+    text-align: center;
+    margin-top: 180px;
+
+    border: 3px groove black;
+
+
+}
+#user_list{
+	color: white;
+
+	background-color: rgba(30, 30, 30, 0.7);
+   	
+    margin-left: 15%;
+    margin-right: 15%;
+    min-width: 400px;
+    
+    height: auto;
+
+    box-shadow: 5px 5px 70px #000000;
+
+    border: 3px groove black;
+}
+
+#scoreboard_view_title{
+	color: rgba(250,250,250,1);
+	font-weight: 600;
+	font-size: 32px;
+
+	text-transform: uppercase;
+}
+
+#scoreboard_view_title_sub{
+	color: rgba(250,250,250,1);
+	font-weight: 500;
+	font-size: 25px;
+}
+
+.user_item{
+	background-color: rgba(10,10,10,0.5);
+
+	min-height: 150px;
+	padding-bottom: 85px;
+
+	border: 2px solid black;
+}
+.user_item .user_image{
+	border: 3px solid black;
+	margin: 15px;
+
+	float: left;
+
+	width: auto;
+	height: 100px;
+
+	display: inline-block;
+	
+	background-color: #ffffff;
+}
+
+/*				USER ITEM - USERNAME FIELD					*/
+
+.user_item .user_username{
+	background-color: rgba(10,10,10,1);
+	color: rgba(177,177,177,1);
+	width: 100%;
+}
+
+
+.user_item .user_username .username-container{
+	display: inline-block;
+
+	margin-left: 10px;
+
+	padding-top: 5px;
+	padding-bottom: 5px;
+
+	width: auto;
+}
+
+
+/*				RANK-ICON			*/
+
+.rank-third{
+	color: #7b6838 !important;
+	text-shadow: 0px 0px 1px #564A0E;
+}
+.rank-second{
+	color: rgb(255, 227, 229) !important;
+	text-shadow: 0px 0px 1px rgb(207, 220, 206);
+}
+.rank-first{
+	color: rgb(255, 188, 117) !important;
+	text-shadow: 0 0 5px rgb(255, 211, 130);
+	text-effect: emboss;
+}
+
+
+/*			award-icon				*/
+
+.user-award-list{
+	height: auto;
+	padding: 5px;
+	display: block;
+
+	float: right;
+}
+
+
+
+
+.user_item .user_username a{
+	text-decoration: none;
+
+	color: rgba(140,140,140,1);
+
+	font-size: 25px;
+}
+.user_item .user_image .user_item_info{
+	font-weight: 900;
+
+	font-size: 20px;
+	color: rgba(200,200,200,0.8);
+	width: 200px;
+	display: inline-block;
+}
+.user_item_rank{
+
+	display: inline-block;
+
+	color: white;
+	background-color: rgba(40,40,40, 0.6);
+
+	font-size: 20px;
+	font-weight: 900;
+
+	padding: 5px;
+
+	height: auto;
+	width: auto;
+}
+
+.user_item_rank_icon{
+	display: inline-block;
+
+	position: relative; top: 10px;
+}
+
+.user_item_rank_icon img{
+	width: 40px;
+	height: auto;
+}

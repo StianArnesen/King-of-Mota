@@ -1,0 +1,86 @@
+<html lang="en" ng-app="mainApp" ng-controller="TopbannerController">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=yes">
+        <!-- 							JS: JQUERY-JS-PLUGIN								-->
+        <script src="//cdnjs.cloudflare.com/ajax/libs/less.js/2.5.3/less.min.js" type="text/javascript"  ></script>
+        <!-- 							LESS PLUGIN -> Initializer								-->
+        <script>
+            less = {
+                env: "development",
+                async: false,
+                fileAsync: false,
+                poll: 1000,
+                functions: {},
+                dumpLineNumbers: "comments",
+                relativeUrls: false,
+                rootpath: ":/a.com/"
+            };
+        </script>
+
+        <!-- 							Jquery: 1.11.3 Minified version									-->
+        <script src="//code.jquery.com/jquery-1.11.3.min.js" type="text/javascript"></script>
+        <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/themes/smoothness/jquery-ui.css">
+        
+        <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+
+        
+        <!-- 							JS: JQUERY-PLUGINS								-->
+        <script src="/script/animate-number/jquery.animateNumber.js" type="text/javascript"></script>
+
+        <!-- AngularJS Library - server files -->
+        <script src="/script/angular/angular.min.js" type="text/javascript"></script>
+        <script src="/script/angular/angular-route.js" type="text/javascript"></script>
+        <script src="/script/angular/angular-animate.min.js" type="text/javascript"></script>
+        
+        <script src="/script/page/app.js" type="text/javascript"></script>
+        <script src="/script/page/controllers.js" type="text/javascript"></script>
+        
+        <!-- Bootstrap JS -->
+        <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+        
+        
+            
+        <!-- 							CSS:	GLOBAL-STYLE							-->
+        <link href="/style/global/global.css" rel="stylesheet" type="text/css">
+        <link rel="stylesheet" media="screen and (min-device-width: 800px)" href="layout/top_banner/style/desktop_full.less" />
+        <link rel="stylesheet" media="screen and (max-device-width: 795px)" href="layout/top_banner/style/mobile.less" />
+        <!--<link href="layout/top_banner/style/desktop_full.less" rel="stylesheet" type="text/css" media="screen and (min-device-width: 800px)" >-->
+        <!--<link href="layout/top_banner/style/mobile.less" rel="stylesheet" type="text/css" media="screen and (max-device-width: 800px)" >-->
+    
+    
+        <!--    Misc scripts used globally    -->
+        <script src="/script/util/util.js" type="text/javascript"></script>
+        <script src="/script/global/global.js" type="text/javascript" ></script>
+        <script src="/script/global/gameDialog.js" type="text/javascript"></script>
+        
+        <script src="/script/audio/AudioController.js" type="text/javascript"  ></script>
+        <script src="/script/util/util.js" type="text/javascript"  ></script>
+        
+        <script src="/script/top_banner/top_banner.js" type="text/javascript"></script>
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-jcrop/2.0.4/js/Jcrop.js" type="text/javascript"></script>
+        
+
+
+        <script>
+
+            (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+                    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+                m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+            })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+            ga('create', 'UA-79886352-1', 'auto');
+
+            var dimensionValue = getCookie('user_profile_username_html');
+            ga('set', 'dimension1', dimensionValue);
+
+            ga('send', 'pageview');
+        </script>
+
+        
+        
+    </head>
+</html>

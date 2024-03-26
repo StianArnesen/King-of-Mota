@@ -1,0 +1,142 @@
+@import url(http://fonts.googleapis.com/css?family=Exo:100,200,400);
+@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:700,400,300);
+
+
+
+body{
+    font-family: "exo", sans-serif;
+
+    background-color: rgba(50,50,50,0.9);
+
+    padding: 0px;
+    margin: 0px;
+}
+#crew_view{
+    background-color: rgba(65,65,65,1);
+	
+    margin-left: 15%;
+    margin-right: 25%;
+    min-width: 570px;
+
+    height: auto;
+    padding-bottom: 50px;
+    margin-top: 200px;
+    border-radius: 3px;
+	
+	box-shadow: 5px 5px 40px #000000;
+	
+    z-index: 3;
+
+    display: none;
+}
+
+#crew_view #crew_view_title{
+    border-bottom: 5px solid black;
+    background-color: rgba(90,50,50,1);
+}
+#crew_view #crew_view_title span{
+    color: white;
+    font-size: 30px;
+    margin: 15px;
+}
+
+#crew_view #new_crew_input{
+    width: 30%;
+
+    font-family: "Exo", sans-serif;
+    margin: 30px;
+}
+
+#crew_view #new_crew_input span{
+    color: white;
+}
+
+#crew_view #new_crew_input input{
+    width: 80%;
+    height: 30px;
+    
+    color: black;
+    
+    font-family: "Exo", sans-serif;
+    font-size: 20px;
+
+    background-color: rgba(230,230,230,1);
+}
+#crew_view #new_crew_input textarea{
+    width: 80%;
+    height: 100px;
+    
+    color: black;
+    margin-top: 15px;
+    
+    font-family: "Exo", sans-serif;
+    font-size: 20px;
+
+    background-color: rgba(230,230,230,1);
+}
+#crew_view #new_crew_input input:hover{
+    background-color: rgba(255,255,255,1);   
+}
+#crew_view #new_crew_input select{
+    height: 30px;
+    width: auto;
+
+    margin: 30px;
+    color: black;
+    
+    font-family: "Exo", sans-serif;
+    font-size: 20px;
+
+    background-color: rgba(230,230,230,1);
+}
+#new_crew_input #crew_image_upload{
+    font-size: 15px;
+    height: 10px;
+    width: 90%;
+}
+#new_crew_input #crew_image_upload {
+    font-size: 20px;
+}
+#new_crew_input #crew_image_upload #upload_image{
+    background-color: green;
+    width: 80px;
+    margin-right: auto;
+    margin-left: auto;
+}
+#new_crew_input #crew_image_upload #upload_image:hover{    
+    background-color: lightgreen;
+}
+
+#start_crew{
+    display: block;
+
+    font-size: 30px;
+    
+    border: 2px solid black;
+    
+    background-color: white;
+    
+    width: 190px;
+
+    margin-left: auto;
+    margin-right: auto;
+}
+#start_crew:hover{
+    background-color: white;
+}
+
+#crew_view_desc{
+    padding-top: 1;
+    border-bottom: 5px solid black;
+    font-size: 20px;
+    background-color: rgba(100,100,100,1);
+}
+#crew_view_desc div{
+    margin: 20px;
+}
+
+#crew_view #create_crew_status{
+    font-size: 20px;
+    width: 30%;
+    margin-left: 40%;
+}

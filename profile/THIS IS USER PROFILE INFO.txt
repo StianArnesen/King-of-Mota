@@ -1,0 +1,1 @@
+profileinfo.php - contains script to load user wall (posts, comments)

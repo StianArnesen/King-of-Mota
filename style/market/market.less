@@ -1,0 +1,286 @@
+
+body{
+
+}
+
+.market-view{
+  background-color: rgba(225,225,225,1);
+
+  margin-left: 0;
+  margin-right: 0;
+  margin-top: 75px;
+
+  box-shadow: inset 0 0 35px rgba(0, 0, 0, 0.83);
+
+  height: auto;
+  padding-bottom: 2px;
+
+  z-index: 3;
+}
+
+.market-item-info-list{
+  background-color: rgba(240,240,240,1);
+  color: black;
+
+  margin-bottom: 25px;
+  border-top: 1px dashed black;
+  border-bottom: 1px dashed black;
+}
+.market-item{
+  border-bottom: 1px solid rgba(0,0,0,0.4);
+
+  -webkit-transition: all 125ms cubic-bezier(1, 1, 1, 2.61);
+
+  font-weight: 600;
+
+  padding-bottom: 5px;
+  padding-top: 5px;
+}
+.market-item-summary{
+  border-bottom: 1px solid rgba(255,255,255,1);
+
+  -webkit-transition: all 125ms cubic-bezier(1, 1, 1, 2.61);
+  background-color: rgb(28, 28, 28);
+  font-weight: 600;
+  font-size: 20px;
+  
+  color: white;
+  
+  margin-top: 20px;
+
+  padding-bottom: 7px;
+  padding-top: 7px;
+}
+.market-item:hover{
+  background-color: #538048;
+
+  color: white;
+}
+.market_item_info_title{
+  font-size: 22px;
+  font-weight: 900;
+  width: 15%;
+  display: inline-block;
+  padding-left: 5px;
+  border-left: 1px solid black;
+}
+
+.inv_item_quality{
+  font-size: 14px;
+  font-weight: 500;
+
+  position: relative; top: -25px;
+  z-index: 5;
+
+  background-color: rgba(25,25,25,0.8);
+  
+  border: 2px solid black;
+  
+  border-left: none;
+  border-top: none;
+
+  float: right;
+
+  padding: 3px;
+
+  color: rgba(255,255,255,1);
+}
+
+
+.market-drop-view{
+  background-color: rgba(225,225,225,1);
+
+  margin-left: 0;
+  margin-right: 0;
+  margin-top: 15px;
+
+  height: auto;
+  padding-bottom: 25px;
+  
+  box-shadow: 2px 2px 50px #000000;
+
+  z-index: 3;
+}
+
+.market-view .inventory-view-title{
+  background-color: rgb(39, 41, 57);
+  box-shadow: inset 0 0 25px rgba(255, 246, 240, 0.15);
+  border-bottom: 3px solid black;
+
+  padding: 10px;
+
+  font-size: 24px;
+
+  color: white;
+
+
+}
+
+.inventory_item:hover{
+  box-shadow: 0px 0px 20px rgba(50,100,50,0.7);
+  background-color: rgba(110,110,110, 0.6);
+
+  cursor: hand;
+
+  .inventory_item_seed_img{
+    filter: blur(3px);
+  }
+}
+.inv-item-selected:hover{
+  cursor: no-drop;
+}
+
+
+.market-drop-view-title{
+  background-color: rgba(0,0,0,0.75);
+  color: white;
+
+  border-bottom: 3px solid black;
+
+  font-size: 25px;
+
+  padding: 5px;
+}
+
+#market-items-drop-view{
+  width: 100%;
+  min-height: 70px;
+
+  border-top: 3px solid black;
+  border-bottom: 3px solid black;
+
+  transition: all 155ms ease;
+}
+
+#drop-view-info-text{
+  font-size: 18px;
+  padding: 5px;
+
+  background-color: rgba(50,90,50,5);
+  color: white;
+
+  border-bottom: 2px solid rgba(0, 0, 0, 0.34);
+}
+
+#inventory-view-items{
+  min-height: 55px;
+}
+
+.inventory-view-empty{
+  font-size: 20px;
+  margin: 0.5%;
+}
+
+
+
+
+
+
+
+
+
+/*   HOVERING STAGES     */
+
+
+.ui-state-hover{
+
+  transition: transform 0.1s ease;
+
+  z-index: 255;
+
+  transform: scale(1.1);
+}
+.ui-state-target-hover {
+  box-shadow: inset 0 0 65px rgba(50, 90, 50, 0.6);
+
+}
+
+
+
+
+/*    MARKET INVENTORY SERVER RESPONSE STYLE      */
+
+
+.market-summary-view{
+  padding-left: 1%;
+  padding-right: 1%;
+
+  border-top: 2px solid #e6efe8;
+}
+
+.market-summary-title{
+
+}
+
+.market-summary-item{
+  border-bottom: 2px solid black;
+
+  padding: 5px;
+  display: block;
+}
+
+.market-summary-info{
+  display: inline-block;
+  width: 15%;
+}
+.market-summary-info-value{
+  border-left: 1px solid black;
+
+  color: rgb(89, 107, 76);
+  font-weight: 700;
+
+  display: inline-block;
+  padding-left: 5px;
+  width: 15%;
+}
+
+#market-item-response-list{
+  font-size: 20px;
+}
+
+.market_item_info {
+
+  font-size: 18px;
+  width: 15%;
+  display: inline-block;
+  padding-left: 5px;
+  border-left: 1px solid black;
+}
+.market-item-summary .market_item_info {
+
+  font-size: 18px;
+  width: 15%;
+  display: inline-block;
+  padding-left: 5px;
+  border-left: 1px solid #ffffff;
+}
+.button-sell-items{
+  background-color: rgb(118, 172, 84);
+  border: 2px solid black;
+
+  font-size: 25px;
+  font-weight: 600;
+
+  display: inline-block;
+
+  padding-left: 32px;
+  padding-right: 32px;
+  padding-top: 11px;
+  padding-bottom: 11px;
+
+  margin: 10px;
+
+  cursor: pointer;
+
+
+  transition: all 155ms ease;
+  box-shadow: inset 0 0 25px rgba(255,255,255,0.6);
+  border-radius: 5px;
+
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+}
+.button-sell-items:hover{
+  background-color: rgb(76, 214, 76);
+}

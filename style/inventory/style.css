@@ -1,0 +1,86 @@
+@import url(http://fonts.googleapis.com/css?family=Exo:100,200,400);
+@import url(http://fonts.googleapis.com/css?family=Source+Sans+Pro:700,400,300);
+
+
+body{
+    font-family: "exo", sans-serif;
+
+    background-color: lightgray;
+
+    padding: 0px;
+    margin: 0px;
+    position: relative;
+}
+
+#inventory{
+    background-color: rgba(50,50,50,0.7);
+	border: 3px solid rgba(10,10,10, 1);
+
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-top: 100px;
+
+    height: auto;
+
+	padding-bottom: 100px;
+}
+
+#inventory_view{
+
+}
+#inventory_items{
+
+}
+
+#inventory_title span{
+    font-weight: 500;
+    font-size: 30px;
+    color: white;
+}
+#inventory_title{
+    height: 40px;
+    padding: 5px;
+
+    background-color: rgba(80,130,80,0.4);
+    border-bottom: 2px solid black;
+}
+.inventory_item{
+    display: inline-block;
+    color: white;
+
+    margin: 10px;
+  	font-family: "exo", sans-serif;
+  	font-size: 20px;
+    width: 180px;
+    height: 150px;
+
+	background-color: rgba(50,50,50, 0.6);
+
+	border: 3px solid black;
+}
+.inventory_item:hover, inv_item_img img{
+    box-shadow: 0px 0px 10px white;
+    background-color: rgba(110,110,110, 0.2);
+
+}
+.inventory_item .inv_item_title{
+    background-color: rgba(10,10,10,0.3);
+}
+.inv_item_title{
+    font-size: 15px;
+    font-weight: 900;
+    padding: 5px;
+}
+.inventory_item img{
+    width: 40%;
+    height: auto;
+
+    display: inline-table;
+
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.inv_item_img img:hover {
+
+}
